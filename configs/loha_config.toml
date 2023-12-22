@@ -43,7 +43,7 @@ network_module = "lycoris.kohya"
 network_args = [ "preset=attn-mlp", "algo=loha",]
 
 [Optimizer]
-train_batch_size = 8
+train_batch_size = 3
 gradient_checkpointing = false
 gradient_accumulation_steps = 1
 optimizer_type = "AdamW"
