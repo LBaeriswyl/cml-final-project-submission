@@ -11,7 +11,7 @@ This repository features a collection of notebooks, configs, as well as some of 
 The script to train a Stable Diffusion model with LyCORIS can be found in `SD_lycoris.ipynb`. The script runs using accelerate through the train_network.py file. 
 Various toml configurations can be changed in the `config/` folder.
 While heavily modified, the runscript still depends on a number of the original author's functions which we have included in the `library/`. 
-To run ith different adaptors, simply pass the relevant config file as an argument to acceralte. eg. `--config_file configs/loha_config.toml`
+To run with different adaptors, simply pass the relevant config file as an argument to accelerate. eg. `--config_file configs/loha_config.toml`
 
 ## LLaMa LoRA & QLoRA
 
